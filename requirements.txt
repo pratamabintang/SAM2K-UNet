@@ -1,8 +1,12 @@
-torch~=2.4.0
-torchaudio
+# PyTorch and dependencies (Install with CUDA support according to your CUDA driver)
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+torch>=2.0.0
 torchvision
--f https://download.pytorch.org/whl/cu121
-hydra-core==1.3.2
-tqdm==4.65.2
+torchaudio
+hydra-core>=1.3.2
+tqdm>=4.65.0
 imageio
 pysodmetrics
+timm>=1.0.0
+pyyaml
+
